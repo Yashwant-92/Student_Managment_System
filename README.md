@@ -1,31 +1,55 @@
 Student Management System
+
 A Beginner-level Java console-based project built with Maven, Core Java, JDBC, and MySQL. This project helps you learn basic CRUD operations (Create, Read, Update, Delete) on student records stored in a MySQL database.
+
 🚀 Project Summary
+
 •	- Add new students
+
 •	- View all student records
+
 •	- View a student by ID or Name
+
 •	- Update student information
+
 •	- Delete student records
 
 🛠️ Tech Stack
+
 •	Java - Core Java (JDK 17 or above)
+
 •	JDBC - Java Database Connectivity
+
 •	MySQL - Database for storing data
+
 •	Maven - Project build management
 
 📁 Project Structure
+
 •	StudentManagementSystem/
+
 •	├── src/main/java/com/example/
+
 •	│   ├── DAO/
+
 •	│   │   ├── StudentInterface.java
+
 •	│   │   └── StudentInterfaceImpl.java
+
 •	│   ├── Model/Student.java
+
 •	│   ├── Services/StudentServices.java
+
 •	│   ├── Utility/StudentUtility.java
+
 •	│   └── Main/MainClass.java
+
 •	├── resources/
+
 •	│   └── application.properties (optional)
+
 •	├── pom.xml
+
 •	└── README.md
 
 🔧 How to Run the Project
